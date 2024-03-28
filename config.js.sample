@@ -1,0 +1,19 @@
+module.exports = {
+    token: "токен вашего дискорд-бота",
+    devs: ["ID разработчика/разработчиков"],
+    options: {
+        start_type: "normal" // "debug"
+    },
+    b_pass: [
+        {reward: "qm", req: 2000, amount: 5000},
+        {reward: "qc", req: 5000, amount: 500},
+        {reward: "qm", req: 7000, amount: 7500},
+        {reward: "qm", req: 9500, amount: 10000},
+        {reward: "qdc", req: 12000, amount: 50},
+        {reward: "qc", req: 16000, amount: 1500},
+        {reward: "qm", req: 20000, amount: 20000},
+        {reward: "qdc", req: 25000, amount: 75},
+        {reward: "qm", req: 27500, amount: 30000},
+        {reward: "qc", req: 30000, amount: 1750},
+    ]
+}
